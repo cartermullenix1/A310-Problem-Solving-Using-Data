@@ -1,0 +1,25 @@
+penup
+goto, 0, -200, 1, #FFFFFF
+pendown
+beginfill, #FFFF00
+circle, 200, 2, black
+endfill
+penup
+goto, 70, 20, 2, black
+pendown
+beginfill, black
+circle, 20, 2, black
+endfill
+penup
+goto, -70, 20, 2, black
+pendown
+beginfill, black
+circle, 20, 2, black
+endfill
+penup
+goto, 0, -150, 12, black
+pendown
+beginfill, black
+circle, 50, 2, black
+endfill
+

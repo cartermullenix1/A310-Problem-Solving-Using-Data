@@ -1,0 +1,100 @@
+Project 1 (House Price Prediction Using Linear Regression):
+
+This project uses a linear regression model to preduct housing prices over time. This project
+uses supervised learning to where the model is trained using correct output labels. The model
+also assumes that the relationship between the inputs and outputs are linear and minimizes the
+cost of error between the predicted and actual using gradient descent. The overall goal of this
+project is to teach you how to use a linear regression algorithm in Scikit-Learn to predict the
+median value of house prices in different towns of Boston.
+
+Rating: 7/10
+
+Project 2 (Filtering Spam Email Messages Using Naïve Bayes’ Algorithm):
+
+This project uses the Naive Bayes Algorithm to filter out spam emails. For this kind of classification
+learning, supervised learning is most commonly used. This algorithm is a linear regression model like
+the first project. The Naive Bayes Algorithm was chosen because it is requires a very small amount of
+data for training and it is relatively easy to implement and understand.
+
+Rating: 8/10
+
+Project 3 (Predicting Used Car Sale Price Using Feedforward Articial Neural Networks):
+
+This project uses a densely connected neural network (DNN) to predict car prices. The feedforward
+artificial neural network is a linear regression model like the model from project 1. This is done
+through the processes of Feedforward and BackPropagation. The feedforward step produces the output of
+the neural by following a formula that computes zh1 then uses zh1 in another formula to calculate ah1.
+You do that for ah (n times) and put that into another formula to calculate zo. zo is then put into a formula
+to calculate ao which is the final output of the neural network. BackPropagation uses a similar system of math
+to minimize the overall loss through finding the optimum values of weights. The loss function uses mean squared
+error and ao from the predicted output calculated before. We are using Linear Feedforward, because it produces
+better results when using large amounts of training data when compared to traditional algorithms and they are 
+able to find hidden features that humans often do not notice.
+
+Rating: 6/10
+
+Project 4 (Predicting Stock Market Trends with RNN [LSTM]):
+
+When trying to predict future events that rely on past knowledge the Feedforward is not effective due to
+lack of memory of the past. Recurrent Neural Networks and LSTM however are able to take past records to make
+future predictions. Recurrent Neural Network works a lot like the previous one but there is a step in which output is dependent
+upon the previous day's output. LSTM solves the problem of RNN that it cannot remember longer sequences and BackPropagation of
+the current layer can cause the previous layer to become infinitesimally small and the intial layers cannot learn anything. LSTM
+uses four units instead of one in the recurrent cell that are variations of gates that fix the problem.
+
+Project 5 (Language Translation using Seq2Seq Encoder-Decoder LSTM):
+
+This project uses the Seq2seq model that uses an encoder and decoder to translate a sentence. Both the encoder and decoder
+are connected LSTM networks like the one used in the previous project. The encoder takes in the original language and uses
+the decoder to translate the sentence to the target language using an embeding layer, 2 hidden layers, a projection layer,
+and a loss layer. The in the prediction phase only a word is fed in, instead of the whole sentence. It then is able to predict
+a possible sentence using the already trained data.
+
+Project 6 (Classifying Cats and Dogs Images Using Convolution Neural Networks):
+
+This project uses Convolution Neural Networks to classify images into the category of
+dog or cat. The Convolution Neural Network uses the combination of pixels to determine whether images
+are in a category or not. The overall concept of Convolution Operation constists of an image and a feature 
+detector where the detector moves from left to right of the image and multiplies the values of the detector by 
+the values in the image. The values given by Convolution Operation are linear so to introduce unlinear values we need
+to use the ReLu Operation. The ReLu operation is used to replace any negative values with 0 and leave all the postive values
+untouched. The next operation which is pooling takes into account any distortion or disorientation that the image may have.
+Pooling takes the feature map and the pooling filter and moves the filter over the feature map apply the one of the pooling 
+operations (max, min, and average). The final operation is Flattening and Fully Connected Layer in which the pooling feature maps
+are flattened into a one-dimensional vector and used as an imput to the neural network layer.
+
+Project 7 (Movie Recommender System Using Item-Based Collaborative Filtering):
+
+This project uses collaborative filtering to calculate the similarities between user buying trends or similarties between
+products. The User-based filtering uses other users that like two products to promote the second product to a person who 
+likes the first. This system works in the short term but can become tedious and complex over time due to changing user habits.
+Item-based filtering groups together items with similar properties and recommends them. This eliminates the user dependency of
+the user-based. These systems are also not time dependent. We then implement item-based filtering to link the movies together
+based on similar properties.
+
+Project 8 (Face Detection with OpenCV in Python):
+
+This project uses OpenCV to implement face detection. This project specifically uses the Viola-Jones Algorithm for object detection.
+This algorithm is simple and easy to understand with high accuracy. OpenCV is a library that was originally developed in C++ but uses
+a wrapper to run in Python and comes with the trained instances of faces using the Viola-Jones algrithm. This library will then be used
+to detect faces in other images using a variety of function from the library. The library can also detect certain facial feature out of
+and image of a face and identify them. The final implementation is a live video where it is able to detect your face using the camera on
+your laptop.
+
+Project 9 (Handwritten English Character Recognition with CNN):
+
+This project uses CNN to detect English handwriting. This model trains on data of handwriting from various indviduals by analyzing the
+pixels to create general ideas of what different English characters look like. When an image of handwriting is then put into the model,
+it is able to distinguish what character is based on the pixels of the image being compared to the pixel data of the images that the model
+was trained on. This project uses a training set of 124,800 images and a test set of 20,800 images of 26 English characters. All the images
+are the same size of 28x28 to ensure that the pixels will be in a similar arrangement for the images. 
+
+Project 10 (Customer Segmentation Based on Income and Spending):
+
+The goal of this project is to create a model that is able to determine market campaigns based on income and past spending data. Marketing
+campaigns typically target those with higher incomes because the likelihood of them spending more money is higher due to the higher levels
+of disposible income in these demographics. K-Means clustering is a commonly used algorithm for clustering unlabled data. K is the number of
+clusters that you want the data grouped into. The number of clusters that you want has to be determined ahead of time to use this type of
+clustering. The Elbow Method is what is used to manually find the K value for this type of clustering. This method uses the value of inertia
+that is found by training K-Mean clusters with different K values and plots it on a graph. This method finds income and spending plots
+separately then combines them in the end showing a income and spending projection to give a target demographic for marketing campaigns.

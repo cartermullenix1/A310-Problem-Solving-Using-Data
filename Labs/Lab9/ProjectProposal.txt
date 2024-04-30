@@ -1,0 +1,28 @@
+Title: Classifying Cats and Dogs Images Using Covolution Neural Networks
+
+Carter Mullenix - A310 Fall 2023
+
+Source: Python Machine Learning Workbook for Beginners Project 6
+
+Project Desciption: This project uses Convolution Neural Networks to classify images into the category of
+dog or cat. The Convolution Neural Network uses the combination of pixels to determine whether images
+are in a category or not. The overall concept of Convolution Operation constists of an image and a feature 
+detector where the detector moves from left to right of the image and multiplies the values of the detector by 
+the values in the image. The values given by Convolution Operation are linear so to introduce unlinear values we need
+to use the ReLu Operation. The ReLu operation is used to replace any negative values with 0 and leave all the postive values
+untouched. The next operation which is pooling takes into account any distortion or disorientation that the image may have.
+Pooling takes the feature map and the pooling filter and moves the filter over the feature map apply the one of the pooling 
+operations (max, min, and average). The final operation is Flattening and Fully Connected Layer in which the pooling feature maps
+are flattened into a one-dimensional vector and used as an imput to the neural network layer.
+
+Libraries and Dataset: tensorflow keras library, google.colab library, numpy library, Dogs vs Cats Dataset from Kaggle
+
+Data Preprocessing: The original dataset contains 25000 images but the amount used in the project is 10000.
+8000 of the images are for training(4000 dogs, 4000 cats) and the reamining 2000 are used for testing. The dataset
+contains no null values that need to be removed in the data cleaning process.
+
+Model used in Project: The model used in the project is a Convolution Neural Network which is made with the Tensor Keras Sequential() class.
+
+End Goal: The program that I write will be able to tell the difference between images of cats and dogs
+and tell the end user which it is. I am learning how to use a Convolution Nerual Networks to classify images in other
+project that I may do.

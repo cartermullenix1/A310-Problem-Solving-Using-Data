@@ -1,0 +1,23 @@
+Title: Customer Segmentation Based on Income and Spending
+
+Carter Mullenix - A310 Fall 2023
+
+Source: Python Machine Learning Workbook for Beginners Project 10
+
+Project Desciption: The goal of this project is to create a model that is able to determine market campaigns based on income and past spending data. Marketing
+campaigns typically target those with higher incomes because the likelihood of them spending more money is higher due to the higher levels
+of disposible income in these demographics. K-Means clustering is a commonly used algorithm for clustering unlabled data. K is the number of
+clusters that you want the data grouped into. The number of clusters that you want has to be determined ahead of time to use this type of
+clustering. The Elbow Method is what is used to manually find the K value for this type of clustering. This method uses the value of inertia
+that is found by training K-Mean clusters with different K values and plots it on a graph. This method finds income and spending plots
+separately then combines them in the end showing a income and spending projection to give a target demographic for marketing campaigns.
+
+Libraries and Dataset: The libraries used are NumPy, Pandas, Scikit Learn, Matplotlib and Seaborn. The data set is provided in the book as a link
+to a GitHub file which is a .csv file.
+
+Data Preprocessing: The data comes in a .csv file that is already cleaned and preprocessed, so no preprocessing is required.
+
+Model used in Project: The model used in this project is a K-Means Clustering Algorithm.
+
+End Goal: The program that I will write will create clusters from customer income, spending, and spending score data. I can use the knowledge of how
+to create and use this algorthim to apply it to data sets to determine what groups to market more heavily to.

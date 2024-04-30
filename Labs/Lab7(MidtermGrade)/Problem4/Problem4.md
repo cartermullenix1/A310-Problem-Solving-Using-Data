@@ -1,0 +1,1 @@
+In my pathing I forgot to put the include the root in the path so the first added number should have a path of 1011 and the second number added should be 1100.

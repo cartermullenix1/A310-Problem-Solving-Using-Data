@@ -1,0 +1,1 @@
+I correctly identified what node replaces the root when the root is removed but missed the path that the node 12 takes when it is pushed down. 2 swaps with 12, 4 swaps with 12, and 8 swaps with 12 leaving 12 in the left most position on the bottom row of the heap.

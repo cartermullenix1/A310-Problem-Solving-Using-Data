@@ -1,0 +1,15 @@
+In section 3 of we learned how to use NumPy to run random simulations on frequencies of heads or tails and how to
+create usable graphics to interpret those findings. We did this with both weighted and unweighted sample_spaces.
+We learned how to compute confidence intervals in the form of a histograms and NumPy arrays. In this we also found
+min and max values from the frequencies that we were computing. We learned how bin points in histograms and learned how
+to compute probabilities from histograms using intervals. We also learned how to increase the amount of bins while keeping
+the confidence interval at the same value. Next we applied the concepts mentioned before to the biased deack of cards and
+used permutations to shuffle the cards.
+
+In section 4 we came up with a solution to the overall case study. The first part of this section is an attempt at predicting
+the outcome of a red card in a shuffled deck of cards. This uses the permutations to shuffle the deck like before, iterates
+through the shuffled deck, and returns a prediction. The next part of the this section tests the strategy which comes out to
+almost a 50/50 chance and computes a total profit. It also computes and creates graphics for probabilities based on an increase
+in shuffles and computes confidence intervals for these. The next part uses a 10-card deck to test if our strategy works 
+on a smaller scale and it outputs a 50/50 chance which is not greater than randomly choosing a card. the overall conclusion
+is that there is not a winning strategy that yields better results than randomly choosing.
